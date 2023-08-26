@@ -6,7 +6,7 @@ body {
 }
 
 .bg {
-  background: url(Images/backgroundStock.PNG) no-repeat center fixed;
+  background: url(backgroundStock.PNG) no-repeat center fixed;
   background-size: cover;
 
   /* Full height  */
