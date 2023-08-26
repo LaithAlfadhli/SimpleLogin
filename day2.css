@@ -1,0 +1,264 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100%;
+  margin: 0;
+
+}
+
+.bg {
+  background: url(Images/backgroundStock.PNG) no-repeat center fixed;
+  background-size: cover;
+
+  /* Full height  */
+  height: 100%;
+
+  /* Center and scale the image nicely  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+/*Create and center the log in box*/
+.logInBox {
+  border-radius: 25px;
+  width: 320px;
+  height: auto;
+  background: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+
+}
+
+.logInBox h1 {
+  text-align: center;
+
+}
+
+/*move labels and input fields so they are not clinging to the edge*/
+.logInBox form label {
+  margin-left: 5%;
+}
+
+.logInBox form .inputBox {
+  margin-left: 5%;
+
+}
+
+/*set up position and default appearence of input fields*/
+.inputBox {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 90%;
+  padding-left: 2px;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  color: gray;
+}
+
+
+/*when in input fields back bottom border stand out*/
+input[type=text]:focus {
+
+  outline: none;
+}
+
+input[type=password]:focus {
+  border: none;
+  outline: none;
+}
+
+input[type=text] {
+  border: none;
+  width: 90%;
+}
+
+input[type=password] {
+  border: none;
+  width: 90%;
+}
+
+
+.logInBox form #submit {
+  border: 50%;
+  text-align: center;
+
+}
+
+/*change appearence of submit button to match image provided, when hovering over change cursor*/
+[type=submit] {
+
+  border-radius: 25px;
+
+  background-position: left top;
+  background-repeat: repeat;
+
+  color: white;
+  padding: 16px 32px;
+
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.formSubmit {
+  text-align: center;
+
+
+}
+
+.btn {
+  background-image: linear-gradient(to right, #20d2fe 0%, #5c86fe 51%, #9149ff 100%);
+  width: 80%;
+  border: none;
+
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 25px;
+
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+.passwordForget {
+  text-align: right;
+  margin-right: 5%;
+
+}
+
+
+
+/*sign up bar links CSS*/
+
+
+.socialBar {
+  width: 100%;
+  height: auto;
+  float: left;
+  padding-bottom: 40px;
+
+}
+
+/*allign sign up using p in center*/
+.socialBar p {
+  text-align: center;
+}
+
+/*allign social media sign up container contents in center*/
+.socialMedia {
+  font-family: FontAwesome;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*remove padding from list, and make list horizontal*/
+ul#socialMediaNav {
+  font-family: FontAwesome;
+  padding: 0;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+/*add padding to space out content*/
+.listInALine {
+  padding-left: 5px;
+}
+
+/*background circle for icons*/
+.circleBG {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+/*icons colour is white*/
+.socialMedia .circleBG .item {}
+
+#facebook {
+  background-color: #203455;
+
+}
+
+#twitter {
+  background-color: rgb(0, 132, 255);
+
+}
+
+#google {
+  background-color: red;
+}
+
+
+.TextBox {
+  text-align: center;
+  color: white;
+  padding: 10px;
+
+}
+
+.accountCreation {
+  float: none;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+a:link {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0026ff;
+  text-decoration: none;
+}
+
+a:active {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+
+li a:link {
+  color: white;
+  text-decoration: none;
+}
+
+li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+li a:active {
+  color: white;
+  text-decoration: none;
+}
